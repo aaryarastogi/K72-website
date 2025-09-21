@@ -55,8 +55,9 @@ const Agence = () => {
 
   return (
     <div className='bg-white'>
-      <div className='section1 relative py-1'>
-        <div ref={imageDivRef} className='absolute lg:w-[15vw] w-[25vw] lg:rounded-4xl rounded-xl lg:h-[20vw] h-[20vw] overflow-hidden left-[30vw] lg:top-40 -top-80'>
+      <div className='relative py-1'>
+        <div ref={imageDivRef} 
+        className="absolute lg:w-[15vw] w-[25vw] lg:rounded-4xl rounded-xl lg:h-[20vw] h-[20vw] overflow-hidden left-[30vw] -top-3/12">
           <img ref={imageRef}
           className='h-full w-full object-cover'
           src="https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg"/>
@@ -71,9 +72,6 @@ const Agence = () => {
             <p className='lg:text-5xl leading-tight text-xl'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notre curiosité nourrit notre créativité. On reste humbles et on dit non aux gros egos, même le vôtre. Une marque est vivante. Elle a des valeurs, une personnalité, une histoire. Si on oublie ça, on peut faire de bons chiffres à court terme, mais on la tue à long terme. C’est pour ça qu’on s’engage à donner de la perspective, pour bâtir des marques influentes.</p>
           </div>
         </div>
-      </div>
-      <div className="section2 h-screen">
-        
       </div>
     </div>
   )
